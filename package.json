@@ -7,8 +7,7 @@
         "htmlsnapshot": "./index.js"
     },
     "scripts": {
-        "example":
-            "node index --u https://medium.com -o medium.html -s .js-metabarLogoCentered"
+        "example": "node index --u https://medium.com -o medium.html -s .js-metabarLogoCentered"
     },
     "keywords": [],
     "author": "Chris Wright <chrisw@campaignmonitor.com>",
@@ -19,7 +18,7 @@
         "puppeteer": "^1.0.0",
         "yargs": "^11.0.0"
     },
-    "engines" : { 
-        "node" : ">=7.6" 
+    "engines": {
+        "node": ">=7.6"
     }
 }
