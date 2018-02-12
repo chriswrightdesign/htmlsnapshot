@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "example":
-      "node htmlsnapshot --u https://medium.com -o medium.html -s .js-metabarLogoCentered"
+    "example": "node htmlsnapshot --u https://medium.com -o medium.html -s .js-metabarLogoCentered"
   },
   "keywords": [],
   "author": "Chris Wright <chrisw@campaignmonitor.com>",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "js-beautify": "^1.7.5",
+    "prettier": "^1.10.2",
     "puppeteer": "^1.0.0",
     "yargs": "^11.0.0"
   }
