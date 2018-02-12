@@ -1,18 +1,25 @@
 {
-  "name": "htmlsnapshot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "example": "node htmlsnapshot --u https://medium.com -o medium.html -s .js-metabarLogoCentered"
-  },
-  "keywords": [],
-  "author": "Chris Wright <chrisw@campaignmonitor.com>",
-  "license": "ISC",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "prettier": "^1.10.2",
-    "puppeteer": "^1.0.0",
-    "yargs": "^11.0.0"
-  }
+    "name": "htmlsnapshot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "htmlsnapshot": "./index.js"
+    },
+    "scripts": {
+        "example":
+            "node index --u https://medium.com -o medium.html -s .js-metabarLogoCentered"
+    },
+    "keywords": [],
+    "author": "Chris Wright <chrisw@campaignmonitor.com>",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.2",
+        "prettier": "^1.10.2",
+        "puppeteer": "^1.0.0",
+        "yargs": "^11.0.0"
+    },
+    "engines" : { 
+        "node" : ">=7.6" 
+    }
 }
